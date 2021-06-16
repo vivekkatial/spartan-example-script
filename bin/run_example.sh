@@ -1,0 +1,1 @@
+sbatch --output=example.txt bin/run-experiment.slurm
