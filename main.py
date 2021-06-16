@@ -24,6 +24,6 @@ while totalPopulation < 1000000:
     total_days += 1
     if dayCount == 56: 
         dayCount = 0
-        # print("Total Population: %s"%totalPopulation)
+        print("Total Population at day %s: %s"%(total_days, totalPopulation))
 
 print("Days to Reach 1M people:%s"%total_days)
